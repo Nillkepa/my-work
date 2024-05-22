@@ -1,0 +1,6 @@
+import math
+
+radius_of_mars = 3396 * 1000  # Convert to meters for consistency with the math module
+square_of_mars = 4 * math.pi * (radius_of_mars**2)
+
+print("The square of Mars is approximately", square_of_mars, "square kilometers.")
